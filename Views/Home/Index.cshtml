@@ -1,0 +1,10 @@
+﻿<div id="clock"></div>
+
+<script type="text/javascript">
+    $(function() {
+        $('#clock').flipcountdown({
+            speedFlip: 50,
+            tick: ServerDate.getServerTime
+        });
+    });
+</script>
